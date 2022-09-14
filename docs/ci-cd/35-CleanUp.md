@@ -20,7 +20,7 @@ If the resource exists in code, it exists in the cloud. Similarly, if the resour
 
 #### Instructions
 
-1. Comment out all the resources in [gds-backend.tf](../deployment/gds-backend.tf), [gds-frontend.tf](../deployment/gds-frontend.tf), and [gds-networking.tf](../deployment/gds-networking.tf).
+1. Comment out all the resources in [gds-backend.tf](/docs/deployment/gds-backend.tf), [gds-frontend.tf](/docs/deployment/gds-frontend.tf), and [gds-networking.tf](/docs/deployment/gds-networking.tf).
 2. Push to git, and verify that the resources in AWS are all deleted.
 3. Sign in to the AWS Console: https://console.aws.amazon.com
 4. Delete the following resources:

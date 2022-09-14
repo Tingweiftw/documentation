@@ -40,7 +40,7 @@ In this section, you will set the secrets obtained from the previous section in 
    2. Go to the repository "Settings"
    3. Go to the "Secrets" section on the left panel
    4. Create two new repository secrets: <AWS_ACCESS_KEY_ID>, <AWS_SECRET_ACCESS_KEY>, from the secrets obtained in the previous section
-2. Uncomment L3 in the [deploy-to-aws](../.github/workflows/deploy-to-aws.yml) Github Workflow and push
+2. Uncomment L3 in the [deploy-to-aws](/docs/.github/workflows/deploy-to-aws.yml) Github Workflow and push
 3. Observe the deployment in the GitHub Actions
 4. Check your AWS Console, you should see that:
    1. A VPC is created
