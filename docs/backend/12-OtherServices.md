@@ -1,4 +1,4 @@
-# 2.2 Calling other services
+# 1.2 Calling other services
 
 When building real-life applications, one of the most common practices is to utilize functionality that others already provide. 
 

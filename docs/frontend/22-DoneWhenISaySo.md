@@ -1,7 +1,3 @@
----
-sidebar_position: 4
----
-
 # 1.2 Done When I Say So
 
 >💡 If you haven't completed Exercise 1.1, get up to speed by switching to the `frontend/checkpoint-1` branch!

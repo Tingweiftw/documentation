@@ -1,7 +1,3 @@
----
-sidebar_position: 5
----
-
 # 1.3 Preventing Mistakes
 
 >💡 If you haven't completed Exercise 1.2, get up to speed by switching to the `frontend/checkpoint-2` branch!
