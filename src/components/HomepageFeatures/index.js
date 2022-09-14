@@ -23,7 +23,7 @@ const FeatureList = [
   },
   {
     title: 'From Zero to Master',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    Svg: require('@sitte/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
         It's not impossible to master it in a couple of hours.
