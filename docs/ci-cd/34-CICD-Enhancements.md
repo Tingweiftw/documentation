@@ -2,9 +2,9 @@
 
 ## Introduction
 
-> This exercise is an **optional** stretch goal. If you are short on time, you may wish to work on this exercise after the workshop. Please proceed to the [next exercise](./35-CleanUp.md) to clean up your environment.
+> This exercise is an **optional** stretch goal. If you are short on time, you may wish to work on this exercise after the workshop. Please proceed to the [next exercise](./CleanUp) to clean up your environment.
 
-In this exercise, we will be extending the CI/CD pipeline you created in the [previous exercise](./31-Docker-Images.md) to add several automated tools.
+In this exercise, we will be extending the CI/CD pipeline you created in the [previous exercise](./Docker-Images) to add several automated tools.
 
 These include:
 
@@ -19,10 +19,10 @@ Leveraging on these tools allows Developers to detect and prevent defects in the
 
 You should have completed all previous exercises:
 
-1. [DevOps Setup](./20-DevOps.md)
-2. [Deploy Frontend to the Cloud](./21-CICD-PartI.md)
-3. [Docker Images](./22-Docker-Images.md)
-4. [Infrastructure-as-Code](./23-InfrastructureAsCode.md)
+1. [DevOps Setup](./DevOps)
+2. [Deploy Frontend to the Cloud](./CICD-PartI)
+3. [Docker Images](./Docker-Images)
+4. [Infrastructure-as-Code](./InfrastructureAsCode)
 
 ## Enhancing the CI/CD Pipeline
 
