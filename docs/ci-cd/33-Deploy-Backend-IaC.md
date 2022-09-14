@@ -16,7 +16,7 @@ In this section, you will deploy the backend component that you created in the p
 
 #### Background
 
-A template backend is already deployed using [gds-backend.tf](/docs/deployment/gds-backend.tf). In that backend, a container with the image "nginxdemos/hello:plain-text" is deployed, listening on the port 80.
+A template backend is already deployed using **gds-backend.tf**. In that backend, a container with the image "nginxdemos/hello:plain-text" is deployed, listening on the port 80.
 
 You may try to access that container using the output of step "Apply Deployment" in the pipeline. Look out for something like this:
 
@@ -39,9 +39,9 @@ Request ID: 8bef2d59d5fee61f59684923d659f02e
 
 #### Instructions
 
-1. Modify [gds-backend.tf](/docs/deployment/gds-backend.tf) to have your containerised application deployed onto the EC2.
-2. Modify [gds-frontend.tf](/docs/deployment/gds-frontend.tf) to ensure that your frontend is pointed to your backend.
-3. Modify [gds-networking.tf](/docs/deployment/gds-networking.tf) to ensure that your backend is accessible from your IP address
+1. Modify **gds-backend.tf** to have your containerised application deployed onto the EC2.
+2. Modify **gds-frontend.tf** to ensure that your frontend is pointed to your backend.
+3. Modify **gds-networking.tf** to ensure that your backend is accessible from your IP address
 
 #### Definition of Done
 

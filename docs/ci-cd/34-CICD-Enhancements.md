@@ -19,10 +19,10 @@ Leveraging on these tools allows Developers to detect and prevent defects in the
 
 You should have completed all previous exercises:
 
-1. [DevOps Setup](./DevOps)
-2. [Deploy Frontend to the Cloud](./CICD-PartI)
-3. [Docker Images](./Docker-Images)
-4. [Infrastructure-as-Code](./InfrastructureAsCode)
+1. [DevOps Setup](/docs/ci-cd/DevOps-Setup)
+2. [Deploy Frontend to the Cloud](/docs/ci-cd/Deploy-Frontend-IaC)
+3. [Docker Images](/docs/ci-cd/Docker-Images)
+4. [Infrastructure-as-Code](/docs/ci-cd/CICD-Enhancements)
 
 ## Enhancing the CI/CD Pipeline
 
