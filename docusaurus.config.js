@@ -8,8 +8,8 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Engineering Bootcamp',
   tagline: 'Learn website development from ground zero.',
-  url: 'https://2022-engineering-bootcamp-gds.gitlab.io/documentation',
-  baseUrl: '/',
+  url: 'https://2022-engineering-bootcamp-gds.gitlab.io',
+  baseUrl: '/documentation',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
