@@ -1,7 +1,5 @@
 # 2.2 Calling other services
 
-[< Back to Exercises](../exercises/README.md)
-
 When building real-life applications, one of the most common practices is to utilize functionality that others already provide. 
 
 For instance, let's say we want to be able to add random Todos and add them to the list.

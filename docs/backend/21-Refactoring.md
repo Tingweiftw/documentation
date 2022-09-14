@@ -1,7 +1,5 @@
 # 2.1 Refactoring
 
-[< Back to Exercises](../exercises/README.md)
-
 ![images](https://user-images.githubusercontent.com/25238106/133753451-12bb5fca-fa01-41cd-b666-9629940b4784.jpg)
 
 The tests are passing! That's it ... right? For a hackathon / school project, probably. Knowing when to walk away is an essential life skill.

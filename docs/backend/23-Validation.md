@@ -1,7 +1,5 @@
 # 2.3 Extra content: Validating data
 
-[< Back to Exercises](../exercises/README.md)
-
 > This is an optional exercise
 
 Another vital component in backend applications is validation - whenever data can be modified, there should be measures to ensure that it does not get corrupted.
