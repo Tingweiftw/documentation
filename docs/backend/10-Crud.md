@@ -1,4 +1,4 @@
-# 2.0 Completing the CRUD API
+# 1.0 Completing the CRUD API
 
 So far, the front-end app has been supported by a backend which provides persistence. As a warm-up, we're going to complete an implementation of the [CRUD](https://en.wikipedia.org/wiki/Create,_read,_update_and_delete) interface.
 
