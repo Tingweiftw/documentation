@@ -3,7 +3,7 @@
 When building real-life applications, one of the most common practices is to utilize functionality that others already provide. 
 
 For instance, let's say we want to be able to add random Todos and add them to the list.
-We can use [boredapi](https://www.boredapi.com/api/activity) which is an existing endpoint that suggests different activites. Click on the link in your browser (i.e. send a GET request). You'll see something like:
+We can use [boredapi](http://www.boredapi.com/api/activity) which is an existing endpoint that suggests different activites. Click on the link in your browser (i.e. send a GET request). You'll see something like:
 ```
 {
     activity : "Go to a concert with local artists with some friends",
@@ -36,12 +36,12 @@ Next, you will need to:
 3. return it in the response
 
 ### Checkpoint
-When your code is complete, `npm run test:2` to verify. With the `"POST /todos/random"` tests passing, the total should now be `2 skipped, 10 passed, 12 total`.
+When your code is complete, `npm run test:2` to verify. With the `"POST /todos/random"` tests passing, the total should now be `1 skipped, 9 passed, 10 total`.
 
 ### Demo: Getting ghosted
 ![images](https://user-images.githubusercontent.com/31716292/134328422-40afa902-9667-48e0-a128-951340cb3f0c.png)
 
-Let's try changing the fetch url from `https://www.boredapi.com/api/activity` to 
+Let's try changing the fetch url from `http://www.boredapi.com/api/activity` to 
 `https://asia-east2-govtech-tracer-stg.cloudfunctions.net/timeout`. Now either `npm run test:2` again or click on `try it out` within the swagger UI, what happens?
 
 In the swagger UI, we are left hanging indefinitely and viewing the test results we see that jest itself times out stating that tests should complete within 5 seconds.

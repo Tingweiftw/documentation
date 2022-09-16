@@ -12,7 +12,7 @@ Navigate to `backend/src/routes`. You'll find the following files:
 
 ## Setting up
 ```
-cd backend && npm install
+npm install
 ```
 
 ## Base checkpoint
@@ -20,7 +20,7 @@ cd backend && npm install
 npm run test:0
 ```
 
-At this point you should have `7 skipped, 5 passed, 12 total` but as we progress through today's walkthrough we will be running more tests.
+At this point you should have `6 skipped, 5 passed, 11 total` but as we progress through today's walkthrough we will be running more tests.
 
 ## Update
 Right now, `updateTodoById` is stubbed out, returning the HTTP code for Not Implemented. 
@@ -30,6 +30,18 @@ Edit the code - it should modify the `todoList` and return `200` upon success. F
 > **At this point you only need to implement return codes 200 and 400**
 
 Feel free to reference the implementation of `deleteTodoById` - the necessary code is very similar!
+
+```
+export async function deleteTodoById(req: Request, res: Response) {
+  const { id } = req.params;
+  if (id in todoList) {
+    delete todoList[id];
+    return res.status(200).json(todoList);
+  } else {
+    return res.status(400).json({ message: "UUID does not exist" });
+  }
+}
+```
 
 When your code is complete, `npm run test:1`. You should find that 2 more tests (`"PUT /todos/{id}"`) are passing!
 
@@ -42,8 +54,8 @@ Implement this new route. For experienced devs, this will be super easy, but jus
 
 | File      | Necessary work |
 | ----------- | ----------- |
-| `newMethods.ts`   | Export a new function out of this file. The signature will be identical to the previous functions. Remember to handle error cases! |
-| `index.ts`      | You'll need to add a new route on `todoRouter`, and import the new method you wrote in `newMethods.ts` |
+| `newMethods.ts`   | Export a new function called `getTodoById` out of this file. The signature will be identical to the previous functions. Remember to handle error cases! |
+| `index.ts`      | You'll need to add a new route on `todoRouter` to `GET` the todo item with its `id`, and import the new method you wrote in `newMethods.ts` |
 
 
-Once more, when your code is complete, `npm run test:1` to verify. With the `"GET /todos/{id}"` tests passing, the total should now be `3 skipped, 9 passed, 12 total`
+Once more, when your code is complete, `npm run test:1` to verify. With the `"GET /todos/{id}"` tests passing, the total should now be `2 skipped, 9 passed, 11 total`
