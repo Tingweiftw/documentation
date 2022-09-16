@@ -13,15 +13,18 @@ Let's get things up and running!
 Firstly, clone this repository and navigate into the main codebase
 
 ```console
-git clone <your-repo-here>
-git fetch
-cd 2021-bootcamp-gds
+mkdir eng-bootcamp-2022 &&
+cd eng-bootcamp-2022 &&
+git clone https://gitlab.com/gds-engineering-bootcamp/backend.git &&
+git clone https://gitlab.com/gds-engineering-bootcamp/frontend.git &&
+git clone https://gitlab.com/gds-engineering-bootcamp/infrastructure.git &&
+cd backend
 ```
 
 Checkout to the exercise branch
 
 ```console
-git checkout exercises/frontend
+git checkout checkpoint-0
 ```
 
 Run the command below:
@@ -33,11 +36,11 @@ docker-compose up --build
 If running docker compose in detached mode instead (`docker-compose up --build --detach`), viewing the logs of a container is simple:
 
 ```console
-docker logs 2021-bootcamp-gds_frontend_1
+docker logs frontend_frontend_1
 ```
 
 ```console
-docker logs 2021-bootcamp-gds_backend_1
+docker logs backend_backend_1
 ```
 
 To tear down the environment:
