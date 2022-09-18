@@ -2,7 +2,7 @@
 
 ## Introduction
 
-> This exercise is an **optional** stretch goal. If you are short on time, you may wish to work on this exercise after the workshop. Please proceed to the [next exercise](./CleanUp) to clean up your environment.
+> This exercise is an **optional** stretch goal. If you are short on time, you may wish to work on this exercise after the workshop. 
 
 In this exercise, we will be extending the CI/CD pipeline you created in the [previous exercise](./Docker-Images) to add several automated tools.
 
