@@ -4,9 +4,12 @@
 
 > 💡 Prerequisite: Do ensure you have [Docker](https://www.docker.com/get-started) installed on your local machine! Also, make sure that Docker desktop is running on the background!
 
-1. Frontend: https://gitlab.com/2022-engineering-bootcamp-gds/frontend
-2. Backend: https://gitlab.com/2022-engineering-bootcamp-gds/backend
-3. Infrastructure: https://gitlab.com/2022-engineering-bootcamp-gds/infrastructure
+1. Frontend: https://gitlab.com/gds-engineering-bootcamp/frontend
+2. Backend: https://gitlab.com/gds-engineering-bootcamp/backend
+3. Infrastructure: https://gitlab.com/gds-engineering-bootcamp/infrastructure
+4. Templates: https://gitlab.com/gds-engineering-bootcamp/templates
+
+> Fork the above Repositories into your own Gitlab group
 
 Let's get things up and running!
 
@@ -15,13 +18,16 @@ Firstly, clone this repository and navigate into the main codebase
 ```console
 mkdir eng-bootcamp-2022 &&
 cd eng-bootcamp-2022 &&
-git clone https://gitlab.com/gds-engineering-bootcamp/backend.git &&
-git clone https://gitlab.com/gds-engineering-bootcamp/frontend.git &&
-git clone https://gitlab.com/gds-engineering-bootcamp/infrastructure.git &&
-cd backend
+git clone https://gitlab.com/<your-group-name>/backend.git &&
+git clone https://gitlab.com/<your-group-name>/frontend.git &&
+git clone https://gitlab.com/<your-group-name>/infrastructure.git &&
 ```
 
-Checkout to the exercise branch
+Checkout to the exercise branch in Backend and Frontend applications
+
+```console
+cd into directories backend and frontend and run the commands below
+```
 
 ```console
 git checkout checkpoint-0
