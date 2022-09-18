@@ -26,10 +26,7 @@ git clone https://gitlab.com/<your-group-name>/infrastructure.git &&
 Checkout to the exercise branch in Backend and Frontend applications
 
 ```console
-cd backend 
-Run the commands below
-cd frontend
-Run the same commands below
+cd into directories backend and frontend and run the commands below
 ```
 
 ```console
