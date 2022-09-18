@@ -8,7 +8,7 @@ Finished already? That was fast.
 
 If you're looking for a challenge, try implementing a bonus feature:
 
-The list now is assumed to be the to-do list of the day. Could you implement a datepicker component in the banner that allows different lists to be displayed according to the chosen date?
+Currently, the list is assumed to be the to-do list of the day. Could you implement a datepicker component in the banner that allows different lists to be displayed according to the chosen date?
 
 ```tsx
 
