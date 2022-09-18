@@ -12,4 +12,5 @@ Lastly, we'll ensure that the to-do item is a valid one.
 To spin up the local development environment, navigate to the main folder and run `docker-compose up`.
 
 Begin the exercise with the branch `checkpoint-0`:
+
 Run `git checkout checkpoint-0` on your terminal, and let's begin!
