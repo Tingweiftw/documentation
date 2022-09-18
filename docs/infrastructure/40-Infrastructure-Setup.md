@@ -1,4 +1,4 @@
-# 3.3 Deploying the Backend with IaC
+# 4.0 Deploying the Backend with IaC
 
 ## Introduction
 
