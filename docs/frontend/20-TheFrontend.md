@@ -1,4 +1,4 @@
-# 1.0 The Frontend
+# 2.0 The Frontend
 
 This topic covers a couple of basic things about frontend development.
 

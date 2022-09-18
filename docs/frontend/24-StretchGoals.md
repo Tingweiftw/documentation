@@ -1,4 +1,4 @@
-# 1.4 Stretch Goals
+# 2.4 Stretch Goals
 
 > 💡 If you haven't completed Exercise 1.3, get up to speed by switching to the `frontend/checkpoint-3` branch!
 
