@@ -7,5 +7,7 @@ Along the way, we'll cover concepts like components, state, hooks, and events.
 
 In the second exercise, we'll add a simple checkbox to track the state of each todo item, and turn it into a controlled component with a bit of code.
 
-Begin the exercise with the branch `checkpoint-0`.
+To spin up the local development environment, navigate to the main folder and run `docker-compose up`.
+
+Begin the exercise with the branch `checkpoint-0`:
 Run `git checkout checkpoint-0` on your terminal, and let's begin!
