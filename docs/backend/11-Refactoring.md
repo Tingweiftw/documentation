@@ -55,3 +55,10 @@ In general, you want to write helpers that:
 1. Enforce invariants / business logic (e.g. our error messages are always named 'message')
 2. Have signatures that correctly express the freedom offered - if `X` is not a sensible argument, I shouldn't be able to write `foo(X)` at all.
 3. Retain natural patterns - JS developers are deeply familiar with JSON, so don't hide JSONs behind a custom signature like `fooV2` does.
+
+---
+
+> 🚩 Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
+```
+git checkout checkpoint-2
+```

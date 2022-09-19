@@ -11,6 +11,24 @@
 
 > Fork the above Repositories into your own Gitlab group
 
+1. Click on the fork button as below
+![Fork Repository](../../static/img/fork_repo.png "Fork Repository")
+
+2. Create a new group by clicking on the `Create a group` button 
+![Create a Group](../../static/img/create_group.png "Create a Group")
+
+3. Click on `Create group`
+![Create Group](../../static/img/create_group.png "Create Group")
+
+4. Give your new group a `Group Name`
+![Group Name](../../static/img/group_name.png "Group Name")
+
+5. Click on `Create group` button and your new group will be created! :D
+![Create Group Button](../../static/img/create_group_button.png "Create Group Button")
+
+6. Your new group will now show under the `Select a namespace` dropdown list
+![Namespace](../../static/img/group.png "Namespace")
+
 Let's get things up and running!
 
 Firstly, clone this repository and navigate into the main codebase
@@ -25,9 +43,8 @@ git clone https://gitlab.com/<your-group-name>/infrastructure.git &&
 
 Checkout to the exercise branch in Backend and Frontend applications
 
-```console
-cd into directories backend and frontend and run the commands below
-```
+> cd into directories backend and frontend and run the commands below
+
 
 ```console
 git checkout checkpoint-0
@@ -35,6 +52,7 @@ git checkout checkpoint-0
 
 Run the command below:
 
+Start the servers
 ```console
 docker-compose up --build
 ```

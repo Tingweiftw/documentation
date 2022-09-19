@@ -59,3 +59,10 @@ Implement this new route. For experienced devs, this will be super easy, but jus
 
 
 Once more, when your code is complete, `npm run test:1` to verify. With the `"GET /todos/{id}"` tests passing, the total should now be `2 skipped, 9 passed, 11 total`
+
+---
+
+> 🚩 Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
+```
+git checkout checkpoint-1
+```

@@ -75,3 +75,10 @@ Returning a code 500 error allows the frontend to have a response within 3 secon
 Congratulations! You have created a simple backend Todo app!
 
 If you finished early or are interested in doing just a bit more, there is an [additional exercise on validation](./Validation)
+
+---
+
+> 🚩 Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
+```
+git checkout checkpoint-3
+```
