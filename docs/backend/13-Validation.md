@@ -32,7 +32,7 @@ You can use the command `npm run test:extra` to see if you've validated these sc
 
 ---
 
-> Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
+> 🚩 Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
 ```
 git checkout checkpoint-4
 ```

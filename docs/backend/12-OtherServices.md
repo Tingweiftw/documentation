@@ -78,7 +78,7 @@ If you finished early or are interested in doing just a bit more, there is an [a
 
 ---
 
-> Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
+> 🚩 Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
 ```
 git checkout checkpoint-3
 ```

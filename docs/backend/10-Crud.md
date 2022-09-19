@@ -62,7 +62,7 @@ Once more, when your code is complete, `npm run test:1` to verify. With the `"GE
 
 ---
 
-> Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
+> 🚩 Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
 ```
 git checkout checkpoint-1
 ```
