@@ -4,34 +4,32 @@
 
 ---
 
-## Removing Everything from the Cloud
-
-### Removing Your Resources
-
-#### Background
+## Background
 
 One of the reasons we deploy our resources using Infrastructure-as-Code (IaC) is because of the ease of representing all resources that are deployed.
 
 If the resource exists in code, it exists in the cloud. Similarly, if the resource ceases to exist within the code, it would cease to exist in the cloud as well (which is exactly what we want at this moment).
 
-#### Instructions
+#### Removing Your Resources
 
+Access your Cloudformation console on AWS. Remove your stacks by selecting and deleting it in the following order:
+
+1. ecs-container 
+2. ecs-cluster
+3. vpc-subnet
+4. role-policy
+
+#### Removing Web Identity and Role
+
+1. Go to IAM > Roles
+2. Look for the role that you have created during the [Web Identity Setup](../ci-cd/30-DevOps-Setup.md)
+3. Delete the role
+4. Go to IAM > Identity Providers 
+5. Select your provider and delete the identity 
 
 #### Definition of Done
 
 1. All resources in AWS are deleted
-
----
-
-### Removing Access
-
-#### Background
-
-#### Instructions
-
-1. Sign in to the AWS Console: https://console.aws.amazon.com
-
----
 
 ### Optional - Deleting AWS Account
 
