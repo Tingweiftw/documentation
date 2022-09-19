@@ -52,6 +52,11 @@ git checkout checkpoint-0
 
 Run the command below:
 
+Install jest to run tests
+```console
+npm i --save-dev @types/jest
+```
+
 Start the servers
 ```console
 docker-compose up --build
