@@ -1,7 +1,5 @@
 # 4.0 Deploying with IaC
 
-## Introduction
-
 Infrastructure as code is the process of provisioning and managing your cloud resources by writing a template file that is both human readable, and machine consumable. Compared to using graphical user interface which may not be maintainable and extensible, which makes cleaning up very tedious as well. For AWS cloud development the built-in choice for infrastructure as code is AWS CloudFormation.
 
 List of IAC Tools:

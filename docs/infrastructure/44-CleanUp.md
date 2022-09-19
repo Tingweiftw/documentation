@@ -1,7 +1,5 @@
 # 4.4 Clean Up
 
-## Introduction
-
 > WARNING: Remember to clean up all AWS resources to ensure that you do not get a surprise charge 12 months from today.
 
 ---

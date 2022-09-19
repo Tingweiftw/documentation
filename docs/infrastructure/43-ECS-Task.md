@@ -1,7 +1,5 @@
 # 4.3 ECS Task Definitions
 
-## Introduction
-
 A task definition is required to run Docker containers in Amazon ECS. The following are some of the parameters that you can specify in a task definition:
 
 1. The Docker image to use with each container in your task

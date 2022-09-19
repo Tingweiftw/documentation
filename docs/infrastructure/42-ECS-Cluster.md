@@ -1,15 +1,15 @@
 # 4.2 ECS Cluster
 
-## Introduction
-
 An Amazon ECS cluster is a logical grouping of tasks or services. Your tasks and services are run on infrastructure that is registered to a cluster. The infrastructure capacity can be provided by AWS Fargate, which is serverless infrastructure that AWS manages, Amazon EC2 instances that you manage, or an on-premise server or virtual machine (VM) that you manage remotely.
 
 ### ECS Fargate Vs ECS EC2
 
-**EC2**: Deploy and manage your own cluster of EC2 instances for running the containers
-  - Pay for underlying EC2 instance launch type.
-**Fargate**: Run containers directly, without any EC2 instances
-  - Pay for how many CPU cores, and gigabytes of memory your task requires, per second.
+#### EC2: 
+- Deploy and manage your own cluster of EC2 instances for running the containers
+- Bill by underlying EC2 instance lauch type
+#### Fargate: 
+- Run containers directly, without any EC2 instances
+- Bill by CPU cores, and gigabytes of memory your task requires
 
 ### Load Balancer and Target Groups
 
