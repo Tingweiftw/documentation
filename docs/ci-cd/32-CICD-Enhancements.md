@@ -1,4 +1,4 @@
-# 3.4 CI/CD Pipeline Enhancements
+# 3.2 CI/CD Pipeline Enhancements
 
 ## Introduction
 

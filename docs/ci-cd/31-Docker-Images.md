@@ -117,7 +117,8 @@ Create a pipeline using GitHub Pipeline to build, publish and deploy the fronten
 1. Create a `.gitlab-ci.yml` file at the root folder of both your frontend and backend app. 
 2. Copy and paste the baseline configuration provided to you below and replace the `<INSERT COMMANDS HERE>`. 
 3. Commit your newly created pipeline file. Gitlab Pipeline should automatically start running. You can view it at the "CI/CD -> Pipelines" tab in your repository sidebar.
-4. Verify that the pipeline completes successfully.
+4. Verify that the pipeline completes successfully, where Build, Test and Publish should complete
+5. Note that the deploy stage will be set to manual since we have not setup the Container Service yet.
 
 Hint: You would run the same commands used to build a Docker image locally as you would in the CI/CD pipeline. Consider using `docker build` and `docker push`.
 
