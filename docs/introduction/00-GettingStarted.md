@@ -52,11 +52,6 @@ git checkout checkpoint-0
 
 Run the command below:
 
-Install all the required packages
-```console
-npm install
-```
-
 Start the servers
 ```console
 docker-compose up --build
