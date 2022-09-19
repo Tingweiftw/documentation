@@ -29,3 +29,10 @@ You can use the command `npm run test:extra` to see if you've validated these sc
 
 [^1]: [HTTP code 409 - Conflict](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409)
 [^2]: [HTTP code 405 - Method Not Allowed](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/409)
+
+---
+
+> Are you stuck? Fear not! You can proceed on by checking out to the next checkpoint 😀
+```
+git checkout checkpoint-4
+```

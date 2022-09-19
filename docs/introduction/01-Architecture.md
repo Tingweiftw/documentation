@@ -26,4 +26,6 @@ It exposes API endpoints which implement the Create, Read, Update, Delete, and L
 
 ## Git Repository
 
-![Overview of Git Branching Strategy](https://user-images.githubusercontent.com/710625/134364889-38a456e9-9192-4a93-a9e2-c6eda8666f15.jpg)
+![Overview of Git Branching Strategy](../../static/img/repository_structure.png)
+
+`Checkpoints `were created for each task in the event where you find the tasks challenging and can't be completed so that you can proceed on with the tutorial.
