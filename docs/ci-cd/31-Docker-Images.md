@@ -137,9 +137,6 @@ stages:
   - publish
   - deploy
 
-tags: # Use tags if you have setup your own local Gitlab Runner, else you can omit this
-    - <INSERT TAG HERE>
-
 # Build stage will build your docker image and stage a copy in Gitlab's Container Registry
 build-stage:
   image: docker:stable
@@ -147,21 +144,27 @@ build-stage:
   variables:
     # Variable holding the name of Gitlab Container Registry
     CONTAINER_BUILD_IMAGE: $CI_REGISTRY_IMAGE:latest
+  tags: # Use tags if you have setup your own local Gitlab Runner, else you can omit this
+    - <INSERT TAG HERE>
   before_script:
     # Login to Gitlab Conatiner Registry
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY 
   script:
     # Build and tag your image to the name of $CONTAINER_BUILD_IMAGE
-    - <INSERT YOUR COMMAND HERE>
+    - docker build -t $CONTAINER_BUILD_IMAGE .
     # Push image to Gitlab Container Registry
-    - <INSERT YOUR COMMAND HERE>
+    - docker push $CONTAINER_BUILD_IMAGE
 
 # Test stage will be used to run unit testing to make sure your image is ready to be deployed
 test-stage:
+  image: node:alpine
   stage: test
+  tags: # Use tags if you have setup your own local Gitlab Runner, else you can omit this
+    - <INSERT TAG HERE>
+  before_script:
+    - npm install
   script:
-    # Run Unit Test
-    - <INSERT YOUR COMMAND HERE>
+    - npm run test:extra
 
 # Publish stage will establish a connection with AWS and publish your staged image to the Elastic Container Registry
 publish-stage:
@@ -172,32 +175,37 @@ publish-stage:
     name: $CI_REGISTRY/<PATH TO TEMPLATES>/templates
     entrypoint:
       - '/usr/bin/env'
+  tags: # Use tags if you have setup your own local Gitlab Runner, else you can omit this
+    - <INSERT TAG HERE>
   variables:
     # Enter ROLE_ARN of your created role from the previous aws setup
     ROLE_ARN: <INSERT ROLE IDENTITY>
+    ECR_REGISTRY: <INSERT ECR REGISTRY NAME>
   stage: publish
   script:
     # Login to Gitlab Conatiner Registry
     - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
     # Retrieve Image from Registry
     - docker pull $CI_REGISTRY_IMAGE:latest
-    # Tag pulled image to ECR Registry Name
-    - <INSERT COMMAND HERE>
+    # Re-Tag pulled image to ECR Registry Name
+    - docker tag $CI_REGISTRY_IMAGE:latest $ECR_REGISTRY
     # Login to ECR Registry 
-    - <INSERT COMMAND HERE>
+    - aws ecr get-login-password --region ap-southeast-1 | docker login --username AWS --password-stdin <INSERT YOUR ECR ENDPOINT>
     # Push to ECR Registry
-    - <INSERT COMMAND HERE>
+    - docker push $ECR_REGISTRY
 
 # Deploy stage will run an ecs update command to force a new image deployment
 deploy-stage:
   extends: .invoke-awscli-commands-with-assumerole
   stage: deploy
+  tags: # Use tags if you have setup your own local Gitlab Runner, else you can omit this
+    - <INSERT TAG HERE>
   variables:
     # Enter ROLE_ARN of your created role from the previous aws setup
-    ROLE_ARN: <INSERT COMMAND HERE>
+    ROLE_ARN: <INSERT ROLE IDENTITY>
   script:
     # Command to update ECS Service
-    - aws ecs update-service --cluster bootcamp-demo-application --service backend-app --force-new-deployment --region ap-southeast-1
+    - aws ecs update-service --cluster <INSERT ECS CLUSTER NAME> --service backend-app --force-new-deployment --region ap-southeast-1
   # Enforces manual triggered deployment to prevent accidental runs
   when: manual
 ```
