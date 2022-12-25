@@ -9,7 +9,7 @@ const config = {
   title: 'Engineering Bootcamp',
   tagline: 'Learn website development from ground zero.',
   url: 'https://2022-engineering-bootcamp-gds.gitlab.io',
-  baseUrl: '/documentation/',
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
