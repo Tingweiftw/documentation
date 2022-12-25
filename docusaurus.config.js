@@ -59,7 +59,7 @@ const config = {
       navbar: {
         title: 'Engineering Bootcamp',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Learn Web Development',
           src: 'img/logo.svg',
         },
         items: [
