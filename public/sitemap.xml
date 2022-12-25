@@ -1,427 +1,353 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
-  xmlns:xhtml="http://www.w3.org/1999/xhtml"
-  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
-  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://learn-web-dev.jasys.xyz/</loc>
     <lastmod>2022-12-25T07:55:37+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/introduction/GettingStarted</loc>
     <lastmod>2022-12-25T07:55:37+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/introduction/GettingStarted/</loc>
+    <lastmod>2022-12-25T07:55:37+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/introduction/GettingStarted/</loc>
     <lastmod>2022-12-25T07:55:37+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/introduction/GettingStarted/</loc>
-    <lastmod>2022-12-25T07:55:37+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/0-introduction</loc>
     <lastmod>2022-12-25T07:55:37+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/1-backend</loc>
     <lastmod>2022-12-25T07:55:37+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/2-frontend</loc>
     <lastmod>2022-12-25T07:55:37+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/3-continuous-integration--continuous-deployment</loc>
     <lastmod>2022-12-25T07:55:37+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/4-infrastructure-as-code</loc>
     <lastmod>2022-12-25T07:55:37+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/category/0-introduction/</loc>
+    <lastmod>2022-12-25T07:55:40+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/0-introduction/</loc>
     <lastmod>2022-12-25T07:55:40+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/category/0-introduction/</loc>
-    <lastmod>2022-12-25T07:55:40+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/category/1-backend/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/category/1-backend/</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/category/2-frontend/</loc>
+    <lastmod>2022-12-25T07:55:41+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/2-frontend/</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/category/2-frontend/</loc>
-    <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/TheFrontend</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/SubmitToDo</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/DoneWhenISaySo</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/PreventingMistakes</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/StretchGoals</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/backend/Validation</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/1-backend/</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/backend/Crud</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/backend/Refactoring</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/backend/OtherServices</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/category/4-infrastructure-as-code/</loc>
+    <lastmod>2022-12-25T07:55:41+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/4-infrastructure-as-code/</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/category/4-infrastructure-as-code/</loc>
-    <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/Infrastructure-Setup</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/VPC-Subnets</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/ECS-Cluster</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/ECS-Task</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/CleanUp</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/ci-cd/CICD-Enhancements</loc>
     <lastmod>2022-12-25T07:55:41+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/category/3-continuous-integration--continuous-deployment/</loc>
+    <lastmod>2022-12-25T07:55:43+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/category/3-continuous-integration--continuous-deployment/</loc>
     <lastmod>2022-12-25T07:55:43+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/category/3-continuous-integration--continuous-deployment/</loc>
-    <lastmod>2022-12-25T07:55:43+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/ci-cd/DevOps-Setup</loc>
     <lastmod>2022-12-25T07:55:43+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/ci-cd/Docker-Images</loc>
     <lastmod>2022-12-25T07:55:43+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/frontend/TheFrontend/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/frontend/TheFrontend/</loc>
     <lastmod>2022-12-25T07:55:43+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/frontend/SubmitToDo/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/frontend/SubmitToDo/</loc>
     <lastmod>2022-12-25T07:55:44+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/TheFrontend/</loc>
     <lastmod>2022-12-25T07:55:44+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/SubmitToDo/</loc>
     <lastmod>2022-12-25T07:55:44+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/frontend/DoneWhenISaySo/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/frontend/DoneWhenISaySo/</loc>
     <lastmod>2022-12-25T07:55:44+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/frontend/PreventingMistakes/</loc>
+    <lastmod>2022-12-25T07:55:44+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/PreventingMistakes/</loc>
     <lastmod>2022-12-25T07:55:44+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/frontend/PreventingMistakes/</loc>
-    <lastmod>2022-12-25T07:55:44+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/DoneWhenISaySo/</loc>
     <lastmod>2022-12-25T07:55:45+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/backend/Validation/</loc>
+    <lastmod>2022-12-25T07:55:45+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/backend/Validation/</loc>
     <lastmod>2022-12-25T07:55:45+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/backend/Validation/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/backend/Refactoring/</loc>
     <lastmod>2022-12-25T07:55:45+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/backend/Refactoring/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/backend/Crud/</loc>
     <lastmod>2022-12-25T07:55:45+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/backend/Crud/</loc>
-    <lastmod>2022-12-25T07:55:45+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/frontend/StretchGoals/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/frontend/StretchGoals/</loc>
     <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/backend/Refactoring/</loc>
     <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/frontend/StretchGoals/</loc>
     <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/backend/Crud/</loc>
     <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/backend/OtherServices/</loc>
+    <lastmod>2022-12-25T07:55:46+01:00</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/infrastructure/Infrastructure-Setup/</loc>
+    <lastmod>2022-12-25T07:55:46+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/backend/OtherServices/</loc>
     <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/Infrastructure-Setup/</loc>
     <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/backend/OtherServices/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/infrastructure/ECS-Task/</loc>
     <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/Infrastructure-Setup/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/infrastructure/VPC-Subnets/</loc>
     <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/ECS-Task/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/infrastructure/ECS-Cluster/</loc>
     <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/VPC-Subnets/</loc>
-    <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/ECS-Cluster/</loc>
-    <lastmod>2022-12-25T07:55:46+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/ECS-Task/</loc>
     <lastmod>2022-12-25T07:55:47+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/ECS-Cluster/</loc>
     <lastmod>2022-12-25T07:55:47+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/CleanUp/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/infrastructure/CleanUp/</loc>
     <lastmod>2022-12-25T07:55:47+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/VPC-Subnets/</loc>
     <lastmod>2022-12-25T07:55:47+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/infrastructure/CleanUp/</loc>
     <lastmod>2022-12-25T07:55:47+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>//learn-web-dev.jasys.xyz/docs/ci-cd/CICD-Enhancements/</loc>
+    <lastmod>2022-12-25T07:55:47+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/ci-cd/CICD-Enhancements/</loc>
     <lastmod>2022-12-25T07:55:47+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/ci-cd/CICD-Enhancements/</loc>
+    <loc>//learn-web-dev.jasys.xyz/docs/ci-cd/DevOps-Setup/</loc>
     <lastmod>2022-12-25T07:55:47+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/ci-cd/DevOps-Setup/</loc>
     <lastmod>2022-12-25T07:55:47+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/ci-cd/DevOps-Setup/</loc>
-    <lastmod>2022-12-25T07:55:47+01:00</lastmod>
-    <changefreq>weekly</changefreq>
+    <loc>//learn-web-dev.jasys.xyz/docs/ci-cd/Docker-Images/</loc>
+    <lastmod>2022-12-25T07:55:48+01:00</lastmod>
     <priority>0.4</priority>
   </url>
   <url>
     <loc>https://learn-web-dev.jasys.xyz/docs/ci-cd/Docker-Images/</loc>
     <lastmod>2022-12-25T07:55:48+01:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.4</priority>
-  </url>
-  <url>
-    <loc>https://learn-web-dev.jasys.xyz/docs/ci-cd/Docker-Images/</loc>
-    <lastmod>2022-12-25T07:55:48+01:00</lastmod>
-    <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
 </urlset>
