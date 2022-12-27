@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Engineering Bootcamp',
+  title: 'Learn Web Dev',
   tagline: 'Learn website development from ground zero.',
-  url: 'https://2022-engineering-bootcamp-gds.gitlab.io',
+  url: 'https://learn-web-dev.jasys.xyz/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -32,6 +32,10 @@ const config = {
       'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
+        gtag: {
+          trackingID: 'G-BTX9ZBR2LF',
+          anonymizeIP: true,
+        },
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
@@ -50,13 +54,6 @@ const config = {
           customCss: require.resolve('./src/css/custom.css'),
         },
       }),
-      '@docusaurus/preset-classic',
-      {
-        gtag: {
-          trackingID: 'G-BTX9ZBR2LF',
-          anonymizeIP: true,
-        },
-      },
     ],
   ],
 
@@ -64,7 +61,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Engineering Bootcamp',
+        title: 'Learn Web Dev',
         logo: {
           alt: 'Learn Web Development',
           src: 'img/logo.svg',
@@ -104,7 +101,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Engineering Bootcamp, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Learn Web Dev, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
