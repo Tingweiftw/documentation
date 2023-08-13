@@ -2,7 +2,7 @@
 
 ## Launching the development environment
 
-This is a new edit on the documentation
+Test auto deploy
 
 > 💡 Prerequisite: Do ensure you have [Docker](https://www.docker.com/get-started) installed on your local machine! Also, make sure that Docker desktop is running on the background!
 
