@@ -73,8 +73,8 @@ const config = {
             label: 'Tutorial',
           },
           {
-            href: 'https://gitlab.com/2022-engineering-bootcamp-gds',
-            label: 'GitLab',
+            href: 'https://github.com/Tingweiftw/gt-engineering-bootcamp-2023',
+            label: 'GitHub',
             position: 'right',
           },
         ],
@@ -95,8 +95,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitLab',
-                href: 'https://gitlab.com/2022-engineering-bootcamp-gds',
+                label: 'GitHub',
+                href: 'https://github.com/Tingweiftw/gt-engineering-bootcamp-2023',
               },
             ],
           },

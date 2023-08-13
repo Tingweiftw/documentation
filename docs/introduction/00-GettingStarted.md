@@ -2,8 +2,6 @@
 
 ## Launching the development environment
 
-Test auto deploy
-
 > 💡 Prerequisite: Do ensure you have [Docker](https://www.docker.com/get-started) installed on your local machine! Also, make sure that Docker desktop is running on the background!
 
 1. Frontend: https://gitlab.com/gds-engineering-bootcamp/frontend
